@@ -1,0 +1,137 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.1.1">
+  <diagram name="Page-1" id="NdXbRggEIidcrOjBIz94">
+    <mxGraphModel dx="819" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="URVlIyHzK3oN2zvohGBv-1" value="Безопасность данных" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="URVlIyHzK3oN2zvohGBv-2" value="Публичные данные" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="URVlIyHzK3oN2zvohGBv-3" value="Внутренние данные" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="URVlIyHzK3oN2zvohGBv-4" value="Конфиденциальные данные" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="URVlIyHzK3oN2zvohGBv-5" value="Секретные данные" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="URVlIyHzK3oN2zvohGBv-6" value="Открытая информация на сайте компании, маркетинговые материалы, рекламные предложения, новости компании." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="130" width="255" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="URVlIyHzK3oN2zvohGBv-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.013;exitY=0.164;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="URVlIyHzK3oN2zvohGBv-1" target="URVlIyHzK3oN2zvohGBv-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="250" as="sourcePoint" />
+            <mxPoint x="450" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="250" />
+              <mxPoint x="240" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="URVlIyHzK3oN2zvohGBv-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="292" as="sourcePoint" />
+            <mxPoint x="280" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="292" />
+              <mxPoint x="240" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="URVlIyHzK3oN2zvohGBv-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="280" as="sourcePoint" />
+            <mxPoint x="280" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="250" y="280" />
+              <mxPoint x="250" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="URVlIyHzK3oN2zvohGBv-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="URVlIyHzK3oN2zvohGBv-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="265" as="sourcePoint" />
+            <mxPoint x="250" y="215" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="250" y="265" />
+              <mxPoint x="250" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="URVlIyHzK3oN2zvohGBv-13" value="Внутренние отчёты, данные аналитики BI, статистика продаж, информация о ходе строительных работ." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="210" width="255" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="URVlIyHzK3oN2zvohGBv-15" value="Данные клиентов и собственников (ФИО, контактные данные, история сделок), финансовые данные компании, договоры, API-контракты с партнёрами." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="290" width="255" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="URVlIyHzK3oN2zvohGBv-16" value="Доступы к базам данных, ключи API, пароли, персональные данные клиентов, данные для аутентификации и авторизации." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="370" width="255" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="URVlIyHzK3oN2zvohGBv-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="URVlIyHzK3oN2zvohGBv-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="160" as="sourcePoint" />
+            <mxPoint x="450" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="URVlIyHzK3oN2zvohGBv-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="239.70999999999998" as="sourcePoint" />
+            <mxPoint x="425" y="239.70999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="URVlIyHzK3oN2zvohGBv-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="319.71000000000004" as="sourcePoint" />
+            <mxPoint x="425" y="319.71000000000004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="URVlIyHzK3oN2zvohGBv-20" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="399.71000000000004" as="sourcePoint" />
+            <mxPoint x="425" y="399.71000000000004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="URVlIyHzK3oN2zvohGBv-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="URVlIyHzK3oN2zvohGBv-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="159.71" as="sourcePoint" />
+            <mxPoint x="705" y="159.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="URVlIyHzK3oN2zvohGBv-22" value="1. Искажение данных - Значительный&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2.&amp;nbsp;Обесценивание данных -&amp;nbsp;Незначительный&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="721" y="130" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="URVlIyHzK3oN2zvohGBv-24" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="URVlIyHzK3oN2zvohGBv-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="239.71" as="sourcePoint" />
+            <mxPoint x="705" y="239.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="URVlIyHzK3oN2zvohGBv-25" value="1.&amp;nbsp;Утечка данных - Значительный&lt;br&gt;2. Потеря данных - Значительный&lt;br&gt;3. Неактуальные данные&amp;nbsp;-&amp;nbsp;Незначительный" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="720" y="210" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="URVlIyHzK3oN2zvohGBv-26" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="URVlIyHzK3oN2zvohGBv-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="319.71000000000004" as="sourcePoint" />
+            <mxPoint x="705" y="319.71000000000004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="URVlIyHzK3oN2zvohGBv-27" value="1.&amp;nbsp;Утечка данных -&amp;nbsp;Критический&lt;br&gt;2. Искажение данных -&amp;nbsp;Значительный&lt;br&gt;3.&amp;nbsp;Потеря данных -&amp;nbsp;Критический" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="721" y="290" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="URVlIyHzK3oN2zvohGBv-30" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="URVlIyHzK3oN2zvohGBv-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="679" y="399.71000000000004" as="sourcePoint" />
+            <mxPoint x="704" y="399.71000000000004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="URVlIyHzK3oN2zvohGBv-31" value="1.&amp;nbsp;Утечка данных -&amp;nbsp;Критический&lt;br&gt;2. Искажение данных -&amp;nbsp;Значительный&lt;br&gt;3.&amp;nbsp;Потеря данных -&amp;nbsp;Критический" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="720" y="370" width="480" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
